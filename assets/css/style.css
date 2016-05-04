@@ -60,5 +60,5 @@ li a{
     -webkit-border-radius: 5px;
     -khtml-border-radius: 5px;
     border-radius: 5px;
-    padding: 20px;
+    margin-bottom: 20px;
 }
