@@ -54,7 +54,7 @@ li a{
     border-radius: 5px;
 }
 
-.form_add{
+#tile, #summary, #category, #submitted{
 
     -moz-border-radius:5px;
     -webkit-border-radius: 5px;
