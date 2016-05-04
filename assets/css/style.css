@@ -27,7 +27,7 @@ li a{
 }
 
 li a:hover{
-    text-decoration: none;
+    color: orange;
 }
 
 #blog_img{
