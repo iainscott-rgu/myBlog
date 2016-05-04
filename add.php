@@ -44,7 +44,7 @@
                     <option value="university" name="university">University</option>
                     <option value="family" name="family">Family</option>
                 </select></td></tr>
-        <tr><td><label for="submitted">Submitted By:</label></td><td><input type="text" name="submitted" id="submitted" size="30"></td></tr>
+        <tr><td><label for="submitter">Submitted By:</label></td><td><input type="text" name="submitter" id="submitter" size="30"></td></tr>
         <tr><td colspan="2"><p><input type="submit" id="submit" value="submit"></p></td></tr>
     </table>
 </form>
