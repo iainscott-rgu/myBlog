@@ -43,8 +43,6 @@ nav>ul>li>a{
     float: right;
 }
 
-.grid-100{
-    margin-left: auto;
-    margin-right: auto;
-    align-content: center;
+#listcon1{
+    border: solid 1px;
 }
