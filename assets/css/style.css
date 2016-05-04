@@ -18,6 +18,11 @@ nav>ul>li{
     padding-left: 20px;
 }
 
+#blog_img{
+
+    width: 500px;
+}
+
 .grid-40{
     border: solid 1px;
 }
