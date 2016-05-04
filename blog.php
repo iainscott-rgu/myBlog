@@ -47,8 +47,8 @@
     }
     $result = $db->query($sql);
     while ($row = $result->fetch_array()) {
-        $title = $row['title'];
-        $summary = $row['summary'];
+        $title = $row['entryTitle'];
+        $summary = $row['entrySummary'];
         $category = $row['category'];
         $submitter = $row['submitter'];
 
@@ -78,9 +78,6 @@
     <section class='grid-90' id='listcon7'>
         {$summary}
     </section>
-
-
-
 ";
 }
     ?>
