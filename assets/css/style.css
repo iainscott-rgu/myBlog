@@ -26,6 +26,10 @@ li a{
     text-decoration: none;
 }
 
+li a:hover{
+    text-decoration: none;
+}
+
 #blog_img{
     width: 300px;
 }
