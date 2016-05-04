@@ -76,7 +76,7 @@
     <section class='grid-90' id='listcon7'>
         {$summary}
     </section>
-    <section class='grid-100' id='listcon1'>
+    <section class='grid-100' id='listcon8'>
 
     </section>
 ";
