@@ -14,6 +14,7 @@ h1{
 
 ul {
     list-style-type: none;
+    margin-left: 0;
 
 }
 
@@ -25,14 +26,6 @@ li{
 Li a{
     text-decoration: none;
 }
-/*
-nav>ul>li>a{
-    display: inline;
-    text-decoration: none;
-    padding-right: 20px;
-    font-size: 22px;
-}
-*/
 
 #blog_img{
     width: 400px;
