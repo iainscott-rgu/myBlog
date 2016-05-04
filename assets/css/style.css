@@ -24,7 +24,11 @@ nav>ul>li{
     width: 500px;
 }
 
-.grid-40{
+.grid-container{
     text-align: justify;
     text-justify: inter-word;
+}
+
+.grid-40{
+
 }
