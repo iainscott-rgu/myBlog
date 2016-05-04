@@ -22,7 +22,7 @@ ul {
 
 li{
     display: inline;
-    padding: 20px;
+    padding-right: 20px;
 }
 
 li a{
