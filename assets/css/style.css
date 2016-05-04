@@ -19,10 +19,12 @@ ul {
 
 li{
     display: inline;
-    text-decoration: none;
+
 }
 
-
+Li a{
+    text-decoration: none;
+}
 /*
 nav>ul>li>a{
     display: inline;
