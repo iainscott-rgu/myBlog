@@ -14,11 +14,12 @@ h1{
 
 ul {
     list-style-type: none;
-    float: left;
-    }
+
+}
 
 li{
     display: inline;
+    padding: 20px;
 }
 
 li a{
