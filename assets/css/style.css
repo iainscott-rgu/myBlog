@@ -25,6 +25,11 @@ li{
     padding-right: 35px;
 }
 
+li:last-child{
+
+    padding-right: 0;
+}
+
 li a{
     text-decoration: none;
     font-size: 22px;
