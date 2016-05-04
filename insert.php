@@ -1,7 +1,7 @@
 <?php
 include("connect.php");
-$title = $_POST["entrytitle"];
-$summary = $_POST["entrySummary"];
+$title = $_POST["title"];
+$summary = $_POST["Summary"];
 $category = $_POST["category"];
 $submitter = $_POST["submitter"];
 
