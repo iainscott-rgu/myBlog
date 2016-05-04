@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>myBlog</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="assets/css/unsemantic-grid-responsive-tablet.css">
+
+
+
+</head>
+<body>
+<header>
+    <h1>myBlog</h1><br>
+    because the internet needs to know what I think
+
+
+
+    <nav>
+        <ul>
+            <li><a href="blog.html">All Blog Items</a></li>
+            <li><a href="blog.html">Work Items</a></li>
+            <li><a href="blog.html">University Items</a></li>
+            <li><a href="blog.html">Family Items</a></li>
+            <li><a href="add.html">Insert a Blog Items</a></li>
+        </ul>
+    </nav>
+
+
+</header>
+<main class="grid-container">
+    <section class="grid-100">
+
+        <table class="form_add">
+            <tr><td><label for="title">title:</label></td><td><input type="text" name="title" id="title" size="30" required></td></tr>
+            <tr><td><label for="link">link:</label></td><td><input type="text" name="link" id="link" size="30" required></td></tr>
+            <tr><td><label for="summary">summary:</label></td><td><textarea cols="31" rows="5" name="summary" id="summary" required></textarea></td></tr>
+            <tr><td><label for="category">category:</label></td><td>
+                <select name = "category" id="category">
+                    <option value="sport" name="sport">sport</option>
+                    <option value="politics" name="politics">politics</option>
+                    <option value="technology" name="technology">technology</option>
+                </select></td></tr>
+            <tr><td><label for="submittor">submittor:</label></td><td><input type="text" name="submittor" id="submittor" size="30"></td></tr>
+            <tr><td colspan="2"><input type="submit" id="submit" value="submit"></td></tr>
+        </table>
+
+
+
+    </section>
+
+</main>
+<footer>
+    <p>Desighned by Iain Scott, 2016</p>
+
+</footer>
+
+</body>
+</html>
