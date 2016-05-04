@@ -63,14 +63,13 @@ li a:hover{
     border-radius: 5px;
 }
 
-#title, #summary, #category, #submitted{
+#title, #ltitle, #summary, #category, #submitted{
 
     -moz-border-radius:5px;
     -webkit-border-radius: 5px;
     -khtml-border-radius: 5px;
     border-radius: 5px;
     margin-bottom: 20px;
-    vertical-align: middle;
 }
 
 .input{
