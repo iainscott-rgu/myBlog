@@ -54,6 +54,10 @@ li a:hover{
     text-decoration: none;
 }
 
+#submit:hover{
+    font-weight: 500;
+}
+
 #listcon1, #listcon3, #listcon5, #listcon7 ,#listcon8, #listcon10, #listcon12, #listcon14{
     border: solid 1px;
     margin-bottom: 20px;
