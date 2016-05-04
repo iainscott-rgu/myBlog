@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>myBlog</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="assets/css/unsemantic-grid-responsive-tablet.css">
+
+
+
+</head>
+<body>
+<header>
+    <h1>myBlog</h1><br>
+    <h4>because the internet needs to know what I think</h4>
+
+
+
+    <nav>
+        <ul>
+            <li><a href="blog.php">All Blog Items</a></li>
+            <li><a href="blog.php">Work Items</a></li>
+            <li><a href="blog.php">University Items</a></li>
+            <li><a href="blog.php">Family Items</a></li>
+            <li><a href="add.php">Insert a Blog Items</a></li>
+        </ul>
+    </nav>
+
+
+</header>
+<main class="grid-container">
+    <section class="grid-60">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id lacus finibus, rhoncus nulla id, tristique eros. Etiam sed justo ornare turpis sollicitudin euismod. Morbi sed dolor nisi. Proin vitae massa volutpat, lacinia lorem sed, vulputate lectus. Donec eget ullamcorper ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus quam nunc, pharetra quis euismod sit amet, mollis id nisl. Vivamus in magna orci. Vivamus ut venenatis lacus. Proin porttitor, velit id interdum imperdiet, mi ante mollis est, vel euismod augue orci quis tellus. Curabitur tempor efficitur congue. Vivamus vehicula nisl nibh. Sed iaculis malesuada enim, vel tempus metus porta eget. Ut porttitor pharetra purus, in sodales neque laoreet ut.
+
+        Nulla sagittis neque sit amet odio tempor, nec dapibus ex volutpat. Cras vitae enim erat. Donec semper tellus non lorem ultrices, eu ultricies tortor ultricies. Nunc molestie pellentesque mattis. Vivamus interdum, purus ac gravida vestibulum, tortor sem rutrum turpis, ac pulvinar arcu leo ac mi. Sed a scelerisque erat. Praesent a tempor dui. Nulla consectetur dictum commodo. Aenean sit amet urna vel mi ultricies euismod vitae in libero. Vivamus vel libero posuere, ornare tortor sit amet, vulputate ante. Nam vitae risus sed erat condimentum condimentum eu ac diam. Duis sodales ut ante ut pretium. Donec iaculis non risus id vehicula. Pellentesque tortor orci, dapibus eu lacinia et, interdum vel lorem.
+    </section>
+
+    <section class="grid-40">
+        <img src="assets/image/blog.png" id="blog_img">
+    </section>
+
+
+
+</main>
+<footer>
+    <p>Designed by Iain Scott, 2016</p>
+
+</footer>
+
+</body>
+</html>
