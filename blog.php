@@ -33,12 +33,16 @@
         $blogViewCategory = $_GET['category'];
         echo "<p><h5>Category: {$blogViewCategory} </h5></p>
 
-";
+<section class='grid-100' id='listcon1'>
+
+    </section>";
         $sql = "SELECT * FROM blogView WHERE category = '$blogViewCategory'";
     }
     else{
         echo "<p><h5>Category: All Blogs </h5></p>
-";
+<section class='grid-100' id='listcon1'>
+
+    </section>";
         $sql = "SELECT * FROM blogView";
     }
     $result = $db->query($sql);
@@ -53,9 +57,7 @@
 
 <main class='grid-container'>
 
-    <section class='grid-100' id='listcon1'>
 
-    </section>
     <section class='grid-10' id='listcon2'>
         Title:
     </section>
@@ -73,6 +75,9 @@
     </section>
     <section class='grid-90' id='listcon7'>
         {$summary}
+    </section>
+    <section class='grid-100' id='listcon1'>
+
     </section>
 ";
 }
