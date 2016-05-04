@@ -41,11 +41,23 @@ nav>ul>li>a{
 
 #submit{
     float: right;
+    -moz-border-radius:5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
 }
 
 #listcon3, #listcon5, #listcon7 ,#listcon8, #listcon10, #listcon12, #listcon14{
     border: solid 1px;
     margin-bottom: 20px;
+    -moz-border-radius:5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.form_add{
+
     -moz-border-radius:5px;
     -webkit-border-radius: 5px;
     -khtml-border-radius: 5px;
