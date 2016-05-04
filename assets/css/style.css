@@ -5,3 +5,11 @@
 h1{
     display: inline;
 }
+
+.grid-40{
+    border: solid 1px;
+}
+
+.grid60{
+    border: solid 1px;
+}
