@@ -27,9 +27,35 @@
         </ul>
     </nav>
 
+    <?php
+    include("connect.php");
+    if(isset($_GET['category'])){
+        $blogViewCategory = $_GET['category'];
+        echo "<p><h5>Category: {$blogViewCategory} </h5></p>
 
-</header>
-<main class="grid-container">
+<section class='grid-100' id='listcon1'>
+
+    </section>";
+        $sql = "SELECT * FROM blogView WHERE category = '$blogViewCategory'";
+    }
+    else{
+        echo "<p><h5>Category: All Blogs </h5></p>
+<section class='grid-100' id='listcon1'>
+
+    </section>";
+        $sql = "SELECT * FROM blogView";
+    }
+    $result = $db->query($sql);
+    while ($row = $result->fetch_array()) {
+        $title = $row['title'];
+        $summary = $row['summary'];
+        $category = $row['category'];
+        $submitter = $row['submitter'];
+
+
+        echo "
+
+<main class='grid-container'>
 
     <section class='grid-100' id='listcon1'>
 
@@ -38,45 +64,29 @@
         Title:
     </section>
     <section class='grid-90' id='listcon3'>
-        Today at work by Adam
+        {$title} by {$submitter}
     </section>
     <section class='grid-10' id='listcon4'>
         Category:
     </section>
     <section class='grid-90' id='listcon5'>
-        Work
+        {$category}
     </section>
     <section class='grid-10' id='listcon6'>
         Summary:
     </section>
     <section class='grid-90' id='listcon7'>
-        Today I went to work and did lots of very complicated coding things. I was very pleased that I managed to finish them all
-    </section>
-
-    <section class='grid-100' id='listcon8'>
-
-    </section>
-
-    <section class='grid-10' id='listcon9'>
-        Title:
-    </section>
-    <section class='grid-90' id='listcon10'>
-        University Lecturer by Brian
-    </section>
-    <section class='grid-10' id='listcon11'>
-        Category:
-    </section>
-    <section class='grid-90' id='listcon12'>
-        University
-    </section>
-    <section class='grid-10' id='listcon13'>
-        Summary:
-    </section>
-    <section class='grid-90' id='listcon14'>
-        This week in university I had an amazing lecture. I can’t remember the name of the lecturer but he was really really good.
+        {$summary}
     </section>
 
 
+
+";
+}
+    ?>
+
+</header>
+<main>
 
 </main>
 <footer>
@@ -86,3 +96,6 @@
 
 </body>
 </html>
+
+
+
