@@ -37,7 +37,7 @@
 
 
         <tr><td><label for="title">Entry Title:</label></td><td><input type="text" name="title" id="title" size="50" required></td></tr>
-        <tr><td><label for="summary">Entry Summary:</label></td><td><textarea cols="51" rows="5" name="summary" id="summary" required></textarea></td></tr>
+        <tr><td><label for="summary">Entry Summary:</label></td><td><textarea cols="50" rows="5" name="summary" id="summary" required></textarea></td></tr>
         <tr><td><label for="category">Category:</label></td><td>
                 <select name = "category" id="category">
                     <option value="work" name="work">Work</option>
