@@ -19,13 +19,9 @@ nav>ul>li>{
     font-size: 22px;
 }
 
-nav>ul>li a{
-    text-decoration: none;
-}
-
 #blog_img{
 
-    width: 500px;
+    width: 400px;
 }
 
 .grid-container{
