@@ -20,9 +20,9 @@
     <nav>
         <ul>
             <li><a href="blog.php">All Blog Items</a></li>
-            <li><a href="blog.php?category=work">Work Items</a></li>
-            <li><a href="blog.php?category=university">University Items</a></li>
-            <li><a href="blog.php?category=family">Family Items</a></li>
+            <li><a href="blog.php?category=Work">Work Items</a></li>
+            <li><a href="blog.php?category=University">University Items</a></li>
+            <li><a href="blog.php?category=Family">Family Items</a></li>
             <li><a href="add.php">Insert a Blog Items</a></li>
         </ul>
     </nav>
