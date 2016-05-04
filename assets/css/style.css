@@ -26,8 +26,7 @@ li{
 }
 
 li:first-child{
-
-    padding-left: 10px;
+    padding-left: 15px;
 }
 
 li a{
