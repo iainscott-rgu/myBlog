@@ -37,7 +37,7 @@
         $sql = "SELECT * FROM blogView WHERE category = '$blogViewCategory'";
     }
     else{
-        echo "<p></p><h5>Category: All Blogs </h5></p>";
+        echo "<p><h4>Category: All Blogs </h4></p>";
 
         $sql = "SELECT * FROM blogView";
     }
