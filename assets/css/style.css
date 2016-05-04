@@ -43,6 +43,6 @@ nav>ul>li>a{
     float: right;
 }
 
-#listcon1{
+#listcon1, #listcon3, #listcon5, #listcon7 ,#listcon9, #listcon11, #listcon13{
     border: solid 1px;
 }
