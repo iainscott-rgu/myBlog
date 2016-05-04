@@ -45,6 +45,9 @@ nav>ul>li>a{
     -webkit-border-radius: 5px;
     -khtml-border-radius: 5px;
     border-radius: 5px;
+    border: solid 1px;
+    background-color: white;
+    text-decoration: none;
 }
 
 #listcon3, #listcon5, #listcon7 ,#listcon8, #listcon10, #listcon12, #listcon14{
