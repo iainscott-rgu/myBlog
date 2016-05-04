@@ -33,15 +33,11 @@
         $blogViewCategory = $_GET['category'];
         echo "<p><h4>Category: {$blogViewCategory} </h4></p>
 
-<section class='grid-100' id='listcon1'>
-
-    </section>";
+";
         $sql = "SELECT * FROM blogView WHERE category = '$blogViewCategory'";
     }
     else{
-        echo "<p><h4>Category: All Blogs </h4></p><section class='grid-100' id='listcon1'>
-
-    </section>
+        echo "<p><h4>Category: All Blogs </h4></p>
 ";
         $sql = "SELECT * FROM blogView";
     }
