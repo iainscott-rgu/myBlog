@@ -25,9 +25,9 @@ li{
     padding-right: 35px;
 }
 
-li:last-child{
+li:first-child{
 
-    padding-right: 0;
+    padding-right: 10px;
 }
 
 li a{
