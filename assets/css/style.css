@@ -52,6 +52,8 @@ li a:hover{
     border: solid 1px;
     background-color: white;
     text-decoration: none;
+    width: 5em;
+    height: 2em;
 }
 
 #submit:hover{
