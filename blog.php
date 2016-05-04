@@ -31,7 +31,7 @@
     include("connect.php");
     if(isset($_GET['category'])){
         $blogViewCategory = $_GET['category'];
-        echo "<p><h5>Category: {$blogViewCategory} </h5></p>
+        echo "<p><h4>Category: {$blogViewCategory} </h4></p>
 
 <section class='grid-100' id='listcon1'>
 
